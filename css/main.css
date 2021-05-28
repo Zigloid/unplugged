@@ -255,7 +255,7 @@
   /* Hero Area */
   
   .hero-area {
-    background: url(../img/unplugged-retreat.jpg);
+    background: url(../img/unplugged-retreat.png);
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -670,6 +670,23 @@
     .contact-content h4 {
       font-size: 1.5em;
     }
+
+    .map figure {
+      width: 100%;
+      height: 0; 
+      padding-bottom: 125%; 
+      overflow: hidden;
+      position: relative;
+  }
+   
+  .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+  }
+  
   
     /* ==========================================================================
      FAQ Page
